@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #F2F2F2; 
+  text-align: center; 
+}
+
+p {
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  padding: 2.1rem;
+  color: #0A0A0A;
+}
+
+span {
+  color: cornflowerblue;
+}
