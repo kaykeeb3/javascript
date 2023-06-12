@@ -23,3 +23,13 @@ h1 {
 span {
   color: cornflowerblue;
 }
+
+button {
+  width: 110px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  height: 35px;
+  background-color: blueviolet;
+  color: #F2F2F2;
+}

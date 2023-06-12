@@ -11,6 +11,7 @@ Uma função no JS é executada quando "algo" a invoca (chama-a)
 
 */
 
+/*
 // FUNÇÃO DE SOMA
 function soma(valor_1, valor_2){
   return valor_1 + valor_2;
@@ -31,3 +32,22 @@ var total = realParaDolar(valorReal, cotacao);
 console.log("O valor em real é R$: " + valorReal + " o valor en U$ é: " + total);
 
 //document.getElementById("text").innerHTML = soma(10, 10);
+*/
+
+function alertaHello(){
+  alert("Olá pessoas, tudo bem com vcs?");
+}
+
+//alertaHello();
+
+function paraCelsius(valorFahrenheit){
+  return (5 / 9) * (valorFahrenheit - 32);
+}
+
+var x = paraCelsius(77);
+
+//console.log("A temperatura é de " + x + " graus celsius");
+
+function minhaFuncao(){
+  var x = 2; 
+}
