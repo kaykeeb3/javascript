@@ -24,12 +24,12 @@ span {
   color: cornflowerblue;
 }
 
+#nome {
+  padding: 50px;
+  border-radius: 5px;
+  font-size: 40px;
+}
+
 button {
-  width: 110px;
-  border-radius: 50px;
-  outline: none;
-  border: none;
-  height: 35px;
-  background-color: blueviolet;
-  color: #F2F2F2;
+  padding: 65px;
 }
