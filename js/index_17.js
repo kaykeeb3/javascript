@@ -1,4 +1,4 @@
-/* Curso de Javascript: 17 | Classes: */
+/* Curso de Javascript: 17 | Classes:  Modulo 2*/
 
 
 /* Basicamente classes são como fábricas para criar objetos.

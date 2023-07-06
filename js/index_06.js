@@ -17,7 +17,7 @@ var d, e, f;
   e = 6;
   f = d + e;
 
-//console.log(f)
+// console.log(f)
 
 // Exemplo 02:
 var a = 2;
@@ -27,7 +27,7 @@ var c = a + b;
 // REATRIBUIÇÃO DE VALOR:
 // var a = 5;
 
-//console.log(c);
+// console.log(c);
 
 
 // DECLARAÇÃO DE VARIÁVEIS:
@@ -69,3 +69,25 @@ const x = 8; // 1° = 8
 
 // Aqui também vai ser 8:
 document.getElementById("text").innerHTML = x; */
+
+
+// DIFERENÇA DE TIPOS DE VÁRIAVEIS:
+/*
+  let
+  var
+  const
+*/
+
+var valor = 123;
+  valor = 456;    
+
+let color = 'Red';
+  color = 'Pink';
+
+const fullName = 'Kayke Barbosa';
+  fullName = 'Pedro';
+
+ 
+console.log(valor);
+console.log(color);
+console.log(fullName);

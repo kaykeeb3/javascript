@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #F2F2F2;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 90%;
+  margin: auto auto;
+}
+
+input {
+  height: 120px;
+  font-size: 2rem;
+  width: 80%;
+  padding-left: 10%;
+}
+
+button.add {
+  width: 20%;
+  cursor: pointer;
+  background: #1AA83A;
+  color: #FFF;
+  font-weight: bold;
+  border: none;
+  height: 120px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+  width: 90%;
+  margin: auto auto;
+  padding-top: 40px;
+}
+
+.item {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background: #FFF;
+  height: 80px;
+  width: 100%;
+  box-shadow: 0 0 20px #ccc;
+  margin-bottom: 2%;
+  cursor: pointer;
+}
+
+.item.clicado {
+  background: #D4F6D9;
+}
+
+.item.clicado .item-nome {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.item-icone {
+  flex: 20%;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.item-nome {
+  flex: 55%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.item-botao {
+  flex: 25%;
+}
+
+.delete {
+  background: red;
+  color: #FFF;
+  border: none;
+  padding: 10px;
+  height: 80px;
+  width: 100%;
+}
+
+.fa-circle-check {
+  color: #1AA83A;
+}
+
+@media screen and (min-width: 400px) {
+  input {
+    height: 85px;
+    outline: none;
+    border: 1px solid gray;
+  }
+
+  button.add {
+    height: 85px;
+    width: 20%;
+  }
+
+  button.add:hover {
+    background-color: #1AA83A;
+    opacity: 80%;
+  }
+}

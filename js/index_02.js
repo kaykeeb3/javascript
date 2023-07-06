@@ -4,7 +4,7 @@
 document.getElementById('text').innerHTML="Meu primeiro texto <b>JS</b>";
 
 // Caixa de Alerta na página:
-alert('escrito com alert')
+alert('escrito com alert');
 
 // Tem a mesma função do que o innerHTML, mostrar a mensagem: utilizado mais para testes
 document.write('Oi <u>escrito com document.write</u>');

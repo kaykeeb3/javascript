@@ -56,8 +56,7 @@ var valor_1, valor_2, total;
   valor_1 = "Kayke ";
   valor_2 = "Barbosa"; 
 
-  total = valor_1 + valor_2
-
+  total = valor_2 + valor_1 
   console.log(total)
 */
 
@@ -119,3 +118,28 @@ var idade, eleitor, resultado;
 
   console.log(resultado);
 */
+
+
+/* Operadores de Comparação: ex */
+
+var valor_01, valor_02, total
+  valor_01 = 8; 
+  valor_02 = 10;
+
+// Comparação: true ou false
+//total = (valor_01 == valor_02)
+
+// Comparação: valor e tipo: true ou false
+//total = (valor_01 === valor_02)
+
+// Diferente ou não igual: true ou false
+//total = (valor_01 != valor_02)
+
+// Diferente ou não igual e o tipo: true ou false
+//total = (valor_01 !== valor_02)
+
+
+total = (valor_01 < valor_02)
+total = (valor_01 < valor_02)
+
+alert(total)

@@ -22,7 +22,7 @@ function ativarContagem(){
     document.getElementById('tempo').innerHTML = "Executou!";
    }, 2000);*/
 
-   tempo =setInterval(function () {
+   tempo = setInterval(function () {
     var cronometro = document.getElementById('tempo').innerHTML;
     var soma = parseInt(cronometro) + 1;
     document.getElementById('tempo').innerHTML = soma;

@@ -6,74 +6,22 @@
 }
 
 body {
-  background-color: #F2F2F2; 
+  background-color: #232222; 
   text-align: center; 
-}
-
-p {
-  font-size: 1rem;
-  margin-top: 1rem;
+  height: 100%;
 }
 
 h1 {
   text-align: center;
-  padding: 2.1rem;
-  color: #0A0A0A;
+  padding: 0.9rem;
+  color: #F2F2F2;
 }
 
 span {
-  color: cornflowerblue;
+  color: blueviolet;
 }
 
-
-h2 {
-  margin-bottom: 1rem;
-}
-h3 {
-  margin-bottom: 1rem;
+#addNew {
+  color: #FFFF;
 }
 
-button:hover {
-  opacity: 80%;
-}
-
-.start {
-  background-color: green;
-}
-
-.stop {
-  background-color: tomato;
-}
-
-h2 {
-  text-align: center;
-}
-
-#area {
-  font-size: 2rem;
-  text-align: center;
-}
-
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 5rem;
-}
-
-button {
-  padding: 20px;
-  margin-left: 3px;
-  border-radius: 5px;
-  background-color: slateblue;
-  color: white;
-  border: none;
-}
-
-input {
-  padding: 20px;
-  outline: none;
-  border-radius: 8px;
-  border: none;
-  border: 1px solid #CCC;
-}
