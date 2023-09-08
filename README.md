@@ -1,4 +1,4 @@
-<h1 align="center">CURSO JS</h1>
+<h1 align="center">javascript</h1>
 
 <br>
 
