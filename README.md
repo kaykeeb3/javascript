@@ -13,9 +13,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ### 💻 Projeto
 
-Este <strong>Repositório</strong> tem todos os conteúdos referente ao curso de JS, nele você irá ver diversos assuntos sobre essa linguagem do momento!<br>
-
-<br>
+<p aling="center"><em>Este <strong>Repositório</strong> tem todos os conteúdos referente ao curso de JS, nele você irá ver diversos assuntos sobre essa linguagem do momento!</em><br></p>
 
 ### 📚 Conteúdo
 
